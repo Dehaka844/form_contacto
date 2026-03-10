@@ -1,0 +1,92 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    text-align: center;
+    color: #1c1e21;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #606770;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    box-sizing: border-box; /* Importante para que el padding no afecte el ancho total */
+}
+
+input.invalid, textarea.invalid {
+    border-color: #fa383e;
+}
+
+.error-message {
+    color: #fa383e;
+    font-size: 0.9em;
+    margin-top: 5px;
+    min-height: 1em; /* Evita que el layout salte cuando aparece un error */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #166fe5;
+}
+
+#server-response {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#server-response.success {
+    background-color: #e9f6ec;
+    color: #34a853;
+}
+
+#server-response.error {
+    background-color: #fde7e9;
+    color: #ea4335;
+}
