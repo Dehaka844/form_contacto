@@ -58,4 +58,4 @@ Para ejecutar este proyecto, necesitas un entorno de servidor local que pueda in
 Este proyecto es una demostración práctica de por qué la validación en el servidor no es opcional. Un usuario podría desactivar JavaScript o usar herramientas de desarrollo para enviar una petición `POST` directamente a `process.php` con datos inválidos. La validación en PHP asegura que, sin importar lo que envíe el cliente, el servidor solo procesará datos que cumplan con las reglas de negocio.
 
 ---
-*Desarrollado por [Tu Nombre].*
+*Desarrollado por David Arenas Cabeza.*
